@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+}
+
+body {
+  max-width: 1250px;
+  background-color: rgb(157, 156, 163);
+}
+
+nav {
+  background-color: rgb(173, 150, 229);
+  height: 30px;
+}
+nav ul {
+  display: flex;
+  height: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+nav ul li {
+  list-style: none;
+  color: rgb(8, 2, 54);
+  font-size: 24px;
+  font-weight: 600;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+nav ul li:hover {
+  font-size: 20px;
+  background-color: rgb(9, 0, 31);
+  border: 1px solid black;
+  box-shadow: 0px 0px 20px yellow;
+  color: rgb(244, 206, 136);
+  border-radius: 5px;
+}
+
+header {
+  display: flex;
+  height: 70px;
+  background-color: rgb(10, 4, 25);
+  color: rgb(35, 181, 35);
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  height: 40px;
+  background-color: rgb(10, 4, 25);
+  justify-content: center;
+  align-items: center;
+  color: rgb(128, 209, 204);
+  font-size: 12px;
+}
+
+article {
+  height: 100%;
+  background-color: rgb(8, 159, 164);
+  font-size: 16px;
+  color: rgb(13, 19, 18);
+}
+article h3 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px;
+}
+article .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+article .container div {
+  width: 180px;
+  height: 120px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+article .container div:hover {
+  transform: scale(1.1);
+}
+
+.news1 {
+  background-color: rgb(4, 87, 90);
+}
+.news1:after {
+  content: " NEWS1";
+}
+
+.news2 {
+  background-color: rgb(4, 87, 90);
+}
+.news2:after {
+  content: " NEWS2";
+}
+
+.news3 {
+  background-color: rgb(4, 87, 90);
+}
+.news3:after {
+  content: " NEWS3";
+}
+
+.news4 {
+  background-color: rgb(4, 87, 90);
+}
+.news4:after {
+  content: " NEWS4";
+}
+
+.news5 {
+  background-color: rgb(4, 87, 90);
+}
+.news5:after {
+  content: " NEWS5";
+}
+
+.news6 {
+  background-color: rgb(4, 87, 90);
+}
+.news6:after {
+  content: " NEWS6";
+}
+
+.news7 {
+  background-color: rgb(4, 87, 90);
+}
+.news7:after {
+  content: " NEWS7";
+}
+
+.news8 {
+  background-color: rgb(4, 87, 90);
+}
+.news8:after {
+  content: " NEWS8";
+}
+
+.news9 {
+  background-color: rgb(4, 87, 90);
+}
+.news9:after {
+  content: " NEWS9";
+}
+
+.news10 {
+  background-color: rgb(4, 87, 90);
+}
+.news10:after {
+  content: " NEWS10";
+}
+
+.news11 {
+  background-color: rgb(4, 87, 90);
+}
+.news11:after {
+  content: " NEWS11";
+}
+
+.news12 {
+  background-color: rgb(4, 87, 90);
+}
+.news12:after {
+  content: " NEWS12";
+}
+
+.news13 {
+  background-color: rgb(4, 87, 90);
+}
+.news13:after {
+  content: " NEWS13";
+}
+
+.news14 {
+  background-color: rgb(4, 87, 90);
+}
+.news14:after {
+  content: " NEWS14";
+}
+
+.news15 {
+  background-color: rgb(4, 87, 90);
+}
+.news15:after {
+  content: " NEWS15";
+}
+
+.news16 {
+  background-color: rgb(4, 87, 90);
+}
+.news16:after {
+  content: " NEWS16";
+}
+
+.news17 {
+  background-color: rgb(4, 87, 90);
+}
+.news17:after {
+  content: " NEWS17";
+}
+
+.news18 {
+  background-color: rgb(4, 87, 90);
+}
+.news18:after {
+  content: " NEWS18";
+}/*# sourceMappingURL=main.css.map */

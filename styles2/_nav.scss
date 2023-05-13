@@ -1,0 +1,24 @@
+$backgroundColor: rgb(144, 110, 86);
+$fontSize: 20px;
+$color: rgb(2, 9, 9);
+
+@import '_mixin';
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 34px;
+    background-color: $backgroundColor;
+}
+nav li{
+    list-style: none;
+    width: 20%;
+    font-size: $fontSize;
+    font-weight: 600;
+    color: $color;    
+    align-content: center;
+    text-align: center;
+}
+nav li:hover{
+    @include navStyle;
+}

@@ -1,0 +1,13 @@
+$backgroundColor: rgb(70, 41, 41);
+$fontSize: 24px;
+$color: rgb(30, 179, 169);
+
+footer{
+    display: flex;
+    height: 40px;
+    background-color: $backgroundColor;
+    justify-content: center;
+    align-items: center;
+    color: $color;
+    font-size: $fontSize/2;
+}

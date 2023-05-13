@@ -1,0 +1,33 @@
+$backgroundColor: rgb(138, 136, 136);
+$fontSize: 16px;
+$color: rgb(104, 52, 52);
+
+aside{
+    margin: 10px;
+    width: 25%;
+}
+
+aside ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 0;
+}
+
+aside li{
+    list-style: none;
+    width: 100%;
+    height: 30%;
+    font-size: $fontSize;
+}
+aside li:hover{
+    background-color: $backgroundColor;
+    font-size: $fontSize*1.1;
+    color: $color;
+    font-weight: 600;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    @include borderRadius($size*2);
+}

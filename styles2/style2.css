@@ -1,0 +1,99 @@
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  height: 34px;
+  background-color: rgb(144, 110, 86);
+}
+
+nav li {
+  list-style: none;
+  width: 20%;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(2, 9, 9);
+  align-content: center;
+  text-align: center;
+}
+
+nav li:hover {
+  box-shadow: 0px 0px 15px rgb(134, 51, 51);
+  background-color: rgb(129, 145, 159);
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+header {
+  background-color: rgb(70, 41, 41);
+  font-size: 24px;
+  color: rgb(30, 179, 169);
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  height: 40px;
+  background-color: rgb(70, 41, 41);
+  justify-content: center;
+  align-items: center;
+  color: rgb(30, 179, 169);
+  font-size: 12px;
+}
+
+aside {
+  margin: 10px;
+  width: 25%;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 0;
+}
+
+aside li {
+  list-style: none;
+  width: 100%;
+  height: 30%;
+  font-size: 16px;
+}
+
+aside li:hover {
+  background-color: rgb(138, 136, 136);
+  font-size: 17.6px;
+  color: rgb(104, 52, 52);
+  font-weight: 600;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  border-radius: 4px;
+}
+
+article {
+  background-color: rgb(97, 88, 88);
+  height: 300px;
+  font-size: 24px;
+  color: rgb(49, 15, 15);
+  display: flex;
+}
+
+article h2 {
+  color: rgb(181, 154, 3);
+}
+
+article div {
+  padding-left: 20px;
+  background-color: rgb(87, 75, 75);
+  color: rgb(175, 206, 232);
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  max-width: 1250px;
+  background-color: #ababc7;
+}/*# sourceMappingURL=style2.css.map */

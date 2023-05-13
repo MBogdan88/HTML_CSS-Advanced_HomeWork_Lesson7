@@ -1,0 +1,33 @@
+$backgroundColor: rgb(173, 150, 229);
+$color: rgb(8, 2, 54);
+$size: 2px;
+
+nav{
+    background-color: $backgroundColor;
+    height: 30px;
+    ul{
+        display: flex;
+        height: 30px;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        li{
+            list-style: none;
+            color: $color;
+            font-size: $size*12;
+            font-weight: 600;
+            width: 20%;
+            height: 100%;
+            text-align: center;
+            &:hover{
+                font-size: $size*10;
+                background-color: rgb(9, 0, 31);;
+                border: 1px solid black;
+                box-shadow: 0px 0px 20px yellow;;
+                color: rgb(244, 206, 136);
+                border-radius: 5px;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,14 @@
+$mainColor: rgb(157, 156, 163);
+
+*{
+    margin: 0;
+}
+body{
+    max-width: 1250px;
+    background-color: $mainColor;
+}
+
+@import "_nav3";
+@import "_header3";
+@import "_footer3";
+@import "_article3";

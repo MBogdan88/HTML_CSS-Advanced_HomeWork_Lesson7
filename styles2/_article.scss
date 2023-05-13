@@ -1,0 +1,22 @@
+$backgroundColor: rgb(97, 88, 88);
+$fontSize: 24px;
+$color: rgb(49, 15, 15);
+
+article{
+    background-color: $backgroundColor;
+    height: 300px;
+    font-size: $fontSize;
+    color: $color;
+    display: flex;
+
+}
+
+article h2{
+    color: rgb(181, 154, 3)
+}
+
+article div{
+    padding-left: 20px;
+    background-color: rgb(87, 75, 75);
+    color: rgb(175, 206, 232);
+}

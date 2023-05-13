@@ -1,0 +1,12 @@
+$heightSize: 70px;
+$color: rgb(35, 181, 35);
+$backgroundColor: rgb(10, 4, 25);
+
+header{
+    display: flex;
+    height: $heightSize;
+    background-color: $backgroundColor;
+    color: $color;
+    align-items: center;
+    
+}

@@ -1,0 +1,19 @@
+$color1: #ffffff;
+$color2: #56578f;
+$colorB: black;
+$size: 2px;
+
+@import '_nav';
+@import '_header';
+@import 'footer';
+@import '_aside';
+@import '_mixin';
+@import '_article';
+
+*{
+    margin: 0;
+}
+body{
+    max-width: 1250px;
+    background-color: mix($color1, $color2);
+}

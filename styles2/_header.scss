@@ -1,0 +1,10 @@
+$backgroundColor: rgb(70, 41, 41);
+$fontSize: 24px;
+$color: rgb(30, 179, 169);
+
+header{
+    background-color: $backgroundColor;
+    font-size: $fontSize;
+    color: $color;
+    text-align: center;
+}

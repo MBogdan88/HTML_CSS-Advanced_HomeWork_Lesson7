@@ -1,0 +1,40 @@
+$backgroundColor: rgb(8, 159, 164);
+$size: 4px;
+$color: rgb(13, 19, 18);
+
+article{
+    height: 100%;
+    background-color: $backgroundColor;
+    font-size: $size*4;
+    color: $color;
+    h3{
+        font-size: $size*6;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        div{
+            width: 180px;
+            height: 120px;
+            border: 1px solid black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+
+    }
+
+}
+@for $i from 1 through 18 {
+    .news#{$i} {
+        background-color: rgb(4, 87, 90);
+        &:after {
+            content: " NEWS#{$i}"
+        }
+    }
+}
